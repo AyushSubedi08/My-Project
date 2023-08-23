@@ -1,0 +1,212 @@
+body {
+    background-color: #040313;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* navbar style */
+
+.navbar {
+    padding-left: 100px;
+
+}
+
+
+.nav-left-heading {
+    display: inline;
+}
+
+.nav-right-div {
+    display: inline;
+    position: absolute;
+    right: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+
+}
+
+.nav-right-heading {
+    display: inline;
+    margin: 20px;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 14px;
+    margin-right: 5px;
+}
+
+
+/* header section style */
+.header-body {
+    margin-top: 40px;
+    margin-left: 200px;
+
+}
+
+.header-body h1 {
+    font-size: 5rem;
+    margin-bottom: 2px;
+
+
+}
+
+.header-para {
+    font-size: 2rem;
+    margin-top: 5px;
+
+}
+
+.div-para {
+    width: 420px;
+}
+
+.header-body-image {
+    text-align: center;
+}
+
+.header-body-image img {
+    height: 400px;
+    width: 800px;
+    margin: auto;
+
+}
+
+/* first section */
+.first-section {
+    width: 550px;
+    padding-left: 150px;
+    padding-top: 90px;
+
+
+
+
+}
+
+.intro-head {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+
+.intro-head-next {
+    font-size: 3.5rem;
+    margin: 0px;
+}
+
+
+
+
+.intro-para {
+    font-size: medium;
+    opacity: 0.8;
+}
+
+/* intro boxes */
+.intro-boxes {
+    display: flex;
+    flex-direction: row;
+    padding-left: 114px;
+    padding-right: 150px;
+    padding-top: 70px;
+    justify-content: space-around;
+
+
+
+
+}
+
+
+.intro-single-box {
+    background-color: rgb(62, 62, 202);
+
+    height: 260px;
+    width: 240px;
+    border: 2px solid rgb(11, 86, 248);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 5px;
+    text-align: center;
+
+
+}
+.intro-single-box:hover {
+    background-color: blue;
+    transform: perspective(1000px) rotateX(-20deg) rotateY(-20deg) scale3d(1, 1, 1);
+}
+
+.intro-boxes-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.9;
+
+}
+
+.intro-boxes-heading-div {
+    text-align: center;
+    width: 187px;
+    height: 100px;
+    position: relative;
+    left: 23px;
+    top: 88px;
+
+}
+
+.intro-image {
+    height: 60px;
+    width: 75px;
+    position: relative;
+    top: 44px;
+}
+
+
+
+
+/* second section */
+
+.second-section {
+    padding: 40px;
+    margin-top:100px;
+}
+.second-intro {
+    text-align: center;
+    
+}
+.second-work-done {
+    font-size: 1.1rem;
+    opacity: 0.55;
+    margin-bottom: 0px;
+    
+}
+.Work-Experience {
+    font-size: 3.5rem;
+    margin-top:6px;
+}
+
+.vertical-line {
+   width:1px;
+    height:700px;
+    background-color: white;
+    border:2px solid white;
+    display: inline-block;
+    position:absolute;
+    left:50%;
+
+
+}
+.top-left-box {
+    border:2px solid white;
+    width:400px;
+    height:300px;
+    position:relative;
+    left:20%;
+    bottom:20px;
+}
