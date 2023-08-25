@@ -223,6 +223,25 @@ body {
     
 }
 
+.first-work-image-div {
+    position: absolute;
+    left:113%;
+    top:2%;
+    border:5px solid white;
+    border-radius: 100%;
+    height:60px;
+    width:60px;
+   
+}
+
+
+.first-work-image {
+    height:60px;
+    width:60px;
+    border-radius:100%;
+    
+}
+
 
 .first-work-heading {
     font-size:1.5rem;
@@ -240,5 +259,6 @@ body {
     opacity:0.8;
     margin-right:12px;
 }
+
 
 
